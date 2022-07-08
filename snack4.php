@@ -4,4 +4,17 @@
     
  -->
 
+<?php  
 
+$randomNumbers = [];
+
+for ($i=0; count($randomNumbers) < 15; $i++) { 
+  $number = rand(0, 30);
+  if(!in_array($number, $randomNumbers)) {
+    $randomNumbers[] = $number;
+  }
+}
+
+
+var_dump($randomNumbers)
+?>

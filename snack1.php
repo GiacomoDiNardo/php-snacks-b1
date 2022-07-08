@@ -12,32 +12,32 @@ $matchList = [
   [
     "casa" => "Milano",
     "ospiti" => "Siena",
-    "puntiCasa" => "88",
-    "puntiOspiti" => "75"
+    "puntiCasa" => rand(60, 100),
+    "puntiOspiti" => rand(60, 100)
   ],
   [
     "casa" => "Cantù",
     "ospiti" => "Bologna",
-    "puntiCasa" => "68",
-    "puntiOspiti" => "79"
+    "puntiCasa" => rand(60, 100),
+    "puntiOspiti" => rand(60, 100)
   ],
   [
     "casa" => "Venezia",
     "ospiti" => "Sassari",
-    "puntiCasa" => "90",
-    "puntiOspiti" => "83"
+    "puntiCasa" => rand(60, 100),
+    "puntiOspiti" => rand(60, 100)
   ],
   [
     "casa" => "Brescia",
     "ospiti" => "Brindisi",
-    "puntiCasa" => "77",
-    "puntiOspiti" => "67"
+    "puntiCasa" => rand(60, 100),
+    "puntiOspiti" => rand(60, 100)
   ],
   [
     "casa" => "Treviso",
     "ospiti" => "Varese",
-    "puntiCasa" => "82",
-    "puntiOspiti" => "81"
+    "puntiCasa" => rand(60, 100),
+    "puntiOspiti" => rand(60, 100)
   ],
 ]
 ?>
