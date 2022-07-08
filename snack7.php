@@ -66,7 +66,8 @@ $class = [
   <?php 
     for ($i=0; $i < count($class); $i++) { 
       $alunno = $class[$i];
-      $sommaVoti = $alunno["voti"]["matematica"] + $alunno["voti"]["storia"] + $alunno["voti"]["scienze"] + $alunno["voti"]["arte"];
+      // $sommaVoti = $alunno["voti"]["matematica"] + $alunno["voti"]["storia"] + $alunno["voti"]["scienze"] + $alunno["voti"]["arte"];
+      $sommaVoti = array_sum($alunno["voti"]);
       $media = $sommaVoti / count($alunno["voti"]);
   ?>
 
